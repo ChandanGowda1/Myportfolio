@@ -1788,6 +1788,24 @@ header{
 
 /** 
  * ===================================================================
+ * .certificates - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#certificates{
+	background: #c7c5c5;
+	padding-top: 6rem;
+	padding-bottom: 6rem;	
+}
+#certificates .photos p{
+	color: #252525;
+	padding: 10px;
+}
+
+
+
+/** 
+ * ===================================================================
  * 13. portfolio - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
@@ -1795,13 +1813,15 @@ header{
 #portfolio {
 	background: #f4f2f2;
 	padding-top: 12rem;
-	padding-bottom: 12rem;	
+	padding-bottom: 12rem;
+	
 }
 #portfolio .folio-item {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
 	margin-bottom :20px;
+	
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -2391,6 +2411,8 @@ header{
 .contact-info h5 {
 	color: #FF0077;
 }
+.email{color: white;}
+.phone{color: white;}
 
 /**
  * loader animation - (_layout.scss)
@@ -2560,5 +2582,5 @@ footer .copyright span:last-child::after {
 	background: #000000;
 }
 
-.email{color: white;}
+
 /*# sourceMappingURL=main.css.map */
